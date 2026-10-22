@@ -1,0 +1,5 @@
+try:
+    number=int(input("enter a n8mber thats an lettet"))
+    print("this" , number, "is sadly corred")
+except ValueError as ex:
+    print("Exception", ex)
